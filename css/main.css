@@ -698,9 +698,9 @@ hr {
   stroke-width: 5;
 }
 
-.profile-pic .social-links {
+.profile-pic .resume-btn {
   background: #fff;
-  padding: 20px 30px;
+  padding: 18px 30px;
   display: inline-block;
   border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -712,20 +712,11 @@ hr {
   left: 30px;
 }
 
-.profile-pic .social-links ul li {
-  float: left;
-}
-
-.profile-pic .social-links ul li:last-child a {
-  margin-right: 0;
-}
-
-.profile-pic .social-links ul li a {
+.profile-pic .resume-btn a {
   color: #000;
   font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none;
-  margin-right: 15px;
   transition: all ease 0.3s;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -733,7 +724,7 @@ hr {
   -o-transition: all ease 0.3s;
 }
 
-.profile-pic .social-links ul li a:hover {
+.profile-pic .resume-btn a:hover {
   opacity: 0.6;
 }
 
