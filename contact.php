@@ -14,11 +14,12 @@ $subject = "Portfolio Message";
 $txt ="Name = ". $name . "\r\n  Email = "
     . $email . "\r\n Message =" . $message;
  
-$headers = "From: noreply@demosite.com" . "\r\n";
+$headers = "From: noreply@demosite.com" . "\r\n" .
+            "CC: somebodyelse@example.com";
 if($email != NULL) {
     mail($to, $subject, $txt, $headers);
 }
  
 // Redirect to
-header("Location:index.html");
+header("Location:last.html");
 ?>
