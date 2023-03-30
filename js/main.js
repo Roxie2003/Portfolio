@@ -24,7 +24,6 @@ function ajaxLoad() {
   videoPlay();
   charts();
   isotope();
-  contactmap();
   setTimeout(() => {
     scrollAnimation();
   }, 1000);

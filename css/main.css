@@ -440,10 +440,10 @@ header nav {
   margin-top: 20px;
   position: relative;
   z-index: 6;
-  pointer-events: all;
 }
 
 header nav ul li {
+  pointer-events: all;
   text-align: right;
   line-height: 2rem;
   opacity: 0;
@@ -740,13 +740,11 @@ hr {
 
 .achievement-item:hover {
   background-color: #a316e1;
-
   transition: all ease-in-out 0.6s;
 }
 
-.achievement-item i {
-  color: #fff;
-  font-size: 3rem;
+.achievement-item img {
+  height: 3rem;
   float: left;
 }
 
@@ -1109,7 +1107,7 @@ footer .social li a {
 }
 
 .proj-item {
-  margin: 20px 10px;
+  margin: 0px 10px;
   position: relative;
   overflow: hidden;
   margin-bottom: 0;
@@ -1127,8 +1125,8 @@ footer .social li a {
 }
 
 .proj-item .project {
-  width: 100%;
-  padding: 60px 25px;
+  padding: 60px 20px;
+  height: 100%;
   background-color: black;
   color: #fff;
   font-size: 0.8rem;
@@ -1136,7 +1134,7 @@ footer .social li a {
 
 .proj-item .project .project-title {
   margin: 2px 40px;
-  border-bottom: solid #a316e1 0.5px;
+  border-bottom: solid #c562ff 0.5px;
 }
 
 .proj-item .project .project-description {
@@ -2186,7 +2184,7 @@ form .site-btn {
   position: absolute;
 }
 .contact-info {
-  margin-bottom: 60px;
+  margin: 10px 0px 40px;
 }
 
 .contact-info a {
@@ -2206,7 +2204,7 @@ form .site-btn {
 }
 
 .contact-info .info-title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   opacity: 0.7;
 }
 .error_message {
