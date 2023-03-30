@@ -828,6 +828,13 @@
                           class="row"
                           autocomplete="off"
                         >
+                        <!--HoneyPot-->
+                        <input type="text" name="_honey" style="display:none;">
+
+                        <!--Captcha-->
+                        <input type="hidden" name="_captcha" value="false">
+
+
                           <!-- name -->
                           <div class="col-xl-12 contact-bar">
                             <input type="text" style="display: none" />
@@ -854,7 +861,7 @@
                             <textarea
                               class="inp"
                               name="message"
-                              id="messagebox"
+                              id="message"
                               rows="3"
                               placeholder="Write you message here"
                             ></textarea>
