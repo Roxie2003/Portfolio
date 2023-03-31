@@ -20,7 +20,6 @@ function ajaxLoad() {
   testimonialSlider();
   workslider();
   lightbox();
-  ContactForm();
   videoPlay();
   charts();
   isotope();
