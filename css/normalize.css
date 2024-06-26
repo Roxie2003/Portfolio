@@ -131,16 +131,77 @@ table {
 
 
 
-.largrid .col, .largrid .col-1, .largrid .col-10, .largrid .col-11, .largrid .col-12, .largrid .col-2, .largrid .col-3, .largrid .col-4, .largrid .col-5, .largrid .col-6, .largrid .col-7, .largrid .col-8, .largrid .col-9, .largrid .col-lg, .largrid .col-lg-1, .largrid .col-lg-10, .largrid .col-lg-11, .largrid .col-lg-12, .largrid .col-lg-2, .largrid .col-lg-3, .largrid .col-lg-4, .largrid .col-lg-5, .largrid .col-lg-6, .largrid .col-lg-7, .largrid .col-lg-8, .largrid .col-lg-9, .largrid .col-md, .largrid .col-md-1, .largrid .col-md-10, .largrid .col-md-11, .largrid .col-md-12, .largrid .col-md-2, .largrid .col-md-3, .largrid .col-md-4, .largrid .col-md-5, .largrid .col-md-6, .largrid .col-md-7, .largrid .col-md-8, .largrid .col-md-9, .largrid .col-sm,
-.largrid .col-sm-1, .largrid .col-sm-10, .largrid .col-sm-11, .largrid .col-sm-12, .largrid .col-sm-2, .largrid .col-sm-3, .largrid .col-sm-4, .largrid .col-sm-5, .largrid .col-sm-6, .largrid .col-sm-7, .largrid .col-sm-8, .largrid .col-sm-9, .largrid .col-xl, .largrid .col-xl-1, .largrid .col-xl-10, .largrid .col-xl-11, .largrid .col-xl-12,
-.largrid .col-xl-2, .largrid .col-xl-3, .largrid .col-xl-4, .largrid .col-xl-5, .largrid .col-xl-6, .largrid .col-xl-7, .largrid .col-xl-8,
+.largrid .col,
+.largrid .col-1,
+.largrid .col-10,
+.largrid .col-11,
+.largrid .col-12,
+.largrid .col-2,
+.largrid .col-3,
+.largrid .col-4,
+.largrid .col-5,
+.largrid .col-6,
+.largrid .col-7,
+.largrid .col-8,
+.largrid .col-9,
+.largrid .col-lg,
+.largrid .col-lg-1,
+.largrid .col-lg-10,
+.largrid .col-lg-11,
+.largrid .col-lg-12,
+.largrid .col-lg-2,
+.largrid .col-lg-3,
+.largrid .col-lg-4,
+.largrid .col-lg-5,
+.largrid .col-lg-6,
+.largrid .col-lg-7,
+.largrid .col-lg-8,
+.largrid .col-lg-9,
+.largrid .col-md,
+.largrid .col-md-1,
+.largrid .col-md-10,
+.largrid .col-md-11,
+.largrid .col-md-12,
+.largrid .col-md-2,
+.largrid .col-md-3,
+.largrid .col-md-4,
+.largrid .col-md-5,
+.largrid .col-md-6,
+.largrid .col-md-7,
+.largrid .col-md-8,
+.largrid .col-md-9,
+.largrid .col-sm,
+.largrid .col-sm-1,
+.largrid .col-sm-10,
+.largrid .col-sm-11,
+.largrid .col-sm-12,
+.largrid .col-sm-2,
+.largrid .col-sm-3,
+.largrid .col-sm-4,
+.largrid .col-sm-5,
+.largrid .col-sm-6,
+.largrid .col-sm-7,
+.largrid .col-sm-8,
+.largrid .col-sm-9,
+.largrid .col-xl,
+.largrid .col-xl-1,
+.largrid .col-xl-10,
+.largrid .col-xl-11,
+.largrid .col-xl-12,
+.largrid .col-xl-2,
+.largrid .col-xl-3,
+.largrid .col-xl-4,
+.largrid .col-xl-5,
+.largrid .col-xl-6,
+.largrid .col-xl-7,
+.largrid .col-xl-8,
 .largrid .col-xl-9 {
-   padding-right: 30px;
-   padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 
-.row.largrid{
-  margin-right: -30px;
-  margin-left: -30px; 
+.row.largrid {
+    margin-right: -30px;
+    margin-left: -30px;
 }
